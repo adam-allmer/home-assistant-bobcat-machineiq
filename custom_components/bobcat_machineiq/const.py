@@ -1,4 +1,7 @@
-"""Constants for the Bobcat Machine IQ integration."""
+"""Constants for the Bobcat Machine IQ integration.
+
+API Reference: https://developer.bobcat.com/
+"""
 
 DOMAIN = "bobcat_machineiq"
 

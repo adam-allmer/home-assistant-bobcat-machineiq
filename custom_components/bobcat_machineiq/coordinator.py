@@ -7,6 +7,7 @@ from homeassistant.core import HomeAssistant
 from homeassistant.helpers.update_coordinator import DataUpdateCoordinator
 
 # TODO: Implement data coordinator for AEMP API polling
+# API Reference: https://developer.bobcat.com/
 
 
 class BobcatMachineIQCoordinator(DataUpdateCoordinator):
@@ -22,6 +23,9 @@ class BobcatMachineIQCoordinator(DataUpdateCoordinator):
         )
 
     async def _async_update_data(self) -> dict:
-        """Fetch data from AEMP API."""
+        """Fetch data from AEMP API.
+        
+        Reference: https://developer.bobcat.com/
+        """
         # TODO: Implement API data fetching
         return {}

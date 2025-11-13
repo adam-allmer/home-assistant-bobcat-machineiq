@@ -7,6 +7,7 @@ from homeassistant.core import HomeAssistant
 from homeassistant.helpers.entity_platform import AddEntitiesCallback
 
 # TODO: Implement sensor entities for fuel, location, engine status, etc.
+# API Reference: https://developer.bobcat.com/
 
 
 async def async_setup_entry(
