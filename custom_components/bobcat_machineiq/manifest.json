@@ -1,0 +1,12 @@
+{
+  "domain": "bobcat_machineiq",
+  "name": "Bobcat Machine IQ",
+  "codeowners": ["@adam-allmer"],
+  "config_flow": true,
+  "documentation": "https://github.com/adam-allmer/home-assistant-bobcat-machineiq",
+  "integration_type": "device",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/adam-allmer/home-assistant-bobcat-machineiq/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}
